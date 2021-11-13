@@ -1,7 +1,13 @@
 @font-face {
     src: url(https://see.fontimg.com/api/renderfont4/nRLyO/eyJyIjoiZnMiLCJoIjoxMDQsInciOjEwMDAsImZzIjoxMDQsImZnYyI6IiMwMDAwMDAiLCJiZ2MiOiIjRkZGRkZGIiwidCI6MX0/U3ViYXRvbWljIEJsYWNr/alloy-ink.png);
 }
+.start{
+    height: 100vh;
 
+    text-align: center;
+    padding-top: 10%;
+
+}
 .what{
     height: 100vh;
     text-align: center;
@@ -20,6 +26,12 @@
 }
 .test{
     font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+a:link{
+    color: black;
+}
+#link{
+
 }
 @media screen and (max-width: 1440px) {
     
