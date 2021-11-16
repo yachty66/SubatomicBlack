@@ -1,9 +1,14 @@
+body{
+    font-family: Roboto;
+}
 #particles-js {
     position: absolute;
     width: 100%;
     height: 100%;
 }
+.ticket{
 
+}
 .text {
     position: absolute;
     top: 50%;
@@ -24,7 +29,7 @@
 
 .font1 {
     font-family: eigene;
-    font-size: 130px;
+    font-size: 160px;
 }
 
 .what {
@@ -49,7 +54,7 @@
 }
 
 .event1 {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .icon {
@@ -57,10 +62,13 @@
 }
 
 .h_class {
-    font-size: 60px;
+    font-size: 110px;
 }
 
 a:link {
+    color: black;
+}
+a:visited{
     color: black;
 }
 
@@ -83,9 +91,11 @@ a:link {
 @media (max-width: 1440px) {
     .font1 {
         font-size: 90px;
+
     }
 
     .icon {
+
         max-width: 30%;
         max-height: 30%;
     }
@@ -105,6 +115,9 @@ a:link {
     .event1 {
         font-size: 28px;
     }
+    .h_class {
+    font-size: 90px;
+}
 }
 
 @media (max-width: 600px) {
@@ -133,4 +146,7 @@ a:link {
     .event1 {
         font-size: 16px;
     }
+    .h_class {
+    font-size: 50px;
+}
 }
